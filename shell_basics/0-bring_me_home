@@ -1,8 +1,1 @@
-julien@ubuntu:/tmp$ pwd
-/tmp
-julien@ubuntu:/tmp$ echo $HOME
-/home/julien
-julien@ubuntu:/tmp$ source ./0-bring_me_home
-julien@ubuntu:~$ pwd
-/home/julien
-julien@ubuntu:~$ 
+
