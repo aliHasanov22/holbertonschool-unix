@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR == 3 { print; exit }' iacta
+{ read; read; read line; echo "$line"; } < iacta
