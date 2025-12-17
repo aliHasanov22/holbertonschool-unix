@@ -1,2 +1,3 @@
 #!/bin/bash
-{ read; read; read line; echo "$line"; } < iacta
+mapfile -n 3 lines < iacta
+echo "${lines[2]}"
